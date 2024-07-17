@@ -1,0 +1,1484 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 826
+  viewPortHeight: 634
+  horizontalOffset: -20
+  verticalOffset: -359
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 634
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);"></div><div
+        class="c-text"><div class="c-title">Google Kubernetes Engine</div><div
+        class="c-short-description">Running and managing containerized
+        applications across multiple machines</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Kubernetes EngineggpgM
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Running and managing containerized applications across
+          multiple machines
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: Google Kubernetes Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 435
+    offsetY: 340
+    zIndex: 2
+    outEdges:
+      - Orthogonal ConnectorKCMnb
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_service_mesh_Black_87_qgal4b.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_service_mesh_zvzylv.png);"></div><div
+        class="c-text"><div class="c-title">Anthos Service Mesh</div><div
+        class="c-short-description">Managing, securing, and monitoring
+        communication between microservices in a cloud-native
+        infrastructure</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    ports:
+      - id: Anthos Service MeshBLTvpbottom-right
+        offset:
+          x: 1
+          y: 1
+        visibility: 2
+        outEdges:
+          - K8Xh6
+      - id: Anthos Service MeshBLTvptop-right
+        offset:
+          x: 1
+          y: 0
+        visibility: 2
+        outEdges:
+          - Xf6En
+      - id: Anthos Service MeshBLTvptop-left
+        offset:
+          x: 0
+          y: 0
+        visibility: 2
+        outEdges:
+          - Ike1s
+      - id: Anthos Service MeshBLTvpbottom-left
+        offset:
+          x: 0
+          y: 1
+        visibility: 2
+        outEdges:
+          - DKG9o
+    id: Anthos Service MeshBLTvp
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Anthos Service Mesh
+        shortDescription: Managing, securing, and monitoring communication between
+          microservices in a cloud-native infrastructure
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Anthos Service Mesh
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Anthos Service Mesh
+      editableName: Anthos Service Mesh
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Anthos Service Mesh
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_service_mesh_zvzylv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_service_mesh__044448_qhntb5.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_service_mesh_Black_87_qgal4b.png
+      color: "#3871e0"
+      controlText: Anthos Service Mesh
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 400
+    offsetY: 203
+    zIndex: 3
+    inEdges:
+      - Orthogonal ConnectorKCMnb
+    outEdges:
+      - K8Xh6
+      - Xf6En
+      - Ike1s
+      - DKG9o
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_Black_87_jv5d6f.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_yiyoar.png);
+        border-radius: 10px"></div></div></div>'
+    id: AnthosGaevG
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Anthos
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Anthos
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Anthos
+      editableName: Anthos
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Anthos
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_yiyoar.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos__044448_dspach.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/anthos_Black_87_jv5d6f.png
+      color: "#3871e0"
+      controlText: Anthos
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 589
+    offsetY: 219
+    zIndex: 4
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #466BB0; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Istio_Black_87_rpj0mr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1662455499/sds_logos/Istio_tya6lq.png);
+        border-radius: 50%"></div></div></div>'
+    id: IstioBwebZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Istio
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Istio
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Istio
+      editableName: Istio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Proxy
+          type: Processor
+          portsIn:
+            job: request
+          portsOut:
+            job: request
+          serviceTime:
+            exp:
+              lambda: AverageProxyDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Proxy
+          AverageProxyDuration: 1
+      name: Istio
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1662455499/sds_logos/Istio_tya6lq.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1662455499/sds_logos/Istio__0484848_vlxdqs.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Istio_Black_87_rpj0mr.png
+      color: "#466BB0"
+      controlText: Istio
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 235
+    offsetY: 219
+    zIndex: 1
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="h-full w-full">
+                <div class="h-full w-full relative">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; opacity: 1;">
+                    <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10" fill="none" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="4 4"></rect>
+                  </svg>
+                </div>
+                <div class="model-group bg-center bg-no-repeat bg-contain top-0 right-0 bottom-0 left-0 opacity-30 absolute" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png)">
+                </div>
+              </div>
+    ports:
+      - id: Branded Logical GroupiTR8fbottom-right
+        offset:
+          x: 1
+          y: 1
+        visibility: 2
+        inEdges:
+          - K8Xh6
+      - id: Branded Logical GroupiTR8ftop-right
+        offset:
+          x: 1
+          y: 0
+        visibility: 2
+        inEdges:
+          - Xf6En
+      - id: Branded Logical GroupiTR8ftop-left
+        offset:
+          x: 0
+          y: 0
+        visibility: 2
+        inEdges:
+          - Ike1s
+      - id: Branded Logical GroupiTR8fbottom-left
+        offset:
+          x: 0
+          y: 1
+        visibility: 2
+        inEdges:
+          - DKG9o
+    id: Branded Logical GroupiTR8f
+    width: 589.9999999999999
+    height: 306
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 513.5
+    offsetY: -13
+    annotations:
+      - id: wWlHT
+        content: Secure, Configurable, and Feature-Rich Networking Into and Between
+          Resources
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fill: white
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      brand: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      size: lg
+    zIndex: 0
+    inEdges:
+      - K8Xh6
+      - Xf6En
+      - Ike1s
+      - DKG9o
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Service</div></div><hr class="c-underrule"
+        style="background-color: #416bdd"></div>'
+    id: ServiceVs8gi
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Service
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Service
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 100
+    height: 124
+    offsetX: 257.50000000000006
+    offsetY: -83
+    zIndex: 6
+    inEdges:
+      - Straight ConnectorqpZGK
+    outEdges:
+      - Orthogonal ConnectorTtpGb
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300500/sds_logos/Kubernetes/Transparent/pod_Black_87_mbywmi.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod_sfcukl.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Pod</div></div><hr class="c-underrule"
+        style="background-color: #416bdd"></div>'
+    id: Podc5mmx
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Pod
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Pod
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Pod
+      editableName: Pod
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Pod
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod_sfcukl.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod__044448_nuc3rz.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300500/sds_logos/Kubernetes/Transparent/pod_Black_87_mbywmi.png
+      color: "#416bdd"
+      controlText: Pod
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 100
+    height: 124
+    offsetX: 744.5
+    offsetY: -83
+    zIndex: 7
+    outEdges:
+      - Orthogonal Bidirectional ConnectorsrN2l
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300500/sds_logos/Kubernetes/Transparent/pod_Black_87_mbywmi.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod_sfcukl.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Pod</div></div><hr class="c-underrule"
+        style="background-color: #416bdd"></div>'
+    id: Podc5mmxma1id
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Pod
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Pod
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Pod
+      editableName: Pod
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Pod
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod_sfcukl.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod__044448_nuc3rz.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300500/sds_logos/Kubernetes/Transparent/pod_Black_87_mbywmi.png
+      color: "#416bdd"
+      controlText: Pod
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-west1"
+      latitude: 45.59456
+      longitude: -121.17868
+    width: 100
+    height: 124
+    offsetX: 744.5
+    offsetY: 69
+    zIndex: 8
+    inEdges:
+      - Orthogonal Bidirectional ConnectorsrN2l
+      - Straight Bidirectional Connectorebw8p
+      - Orthogonal ConnectorxkRyT
+      - Orthogonal ConnectorTtpGb
+    outEdges:
+      - Dashed Straight Nondirectional Connectoreeuse
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Service</div></div><hr class="c-underrule"
+        style="background-color: #416bdd"></div>'
+    id: ServiceVs8giUB386
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Service
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Service
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 563
+    offsetY: -13
+    zIndex: 9
+    outEdges:
+      - Straight Bidirectional Connectorebw8p
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);"></div><div
+        class="c-text"><div class="c-title">Users</div><div
+        class="c-short-description">Interacting with and utilizing software or
+        application functionalities</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Users</div></div></div></div></div>'
+    id: UsersTAdMs
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Users
+        shortDescription: Interacting with and utilizing software or application functionalities
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Users
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Users
+      editableName: Users
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Users
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      color: "#616161"
+      controlText: Users
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 35
+    offsetY: -43
+    zIndex: 13
+    outEdges:
+      - Straight ConnectorqpZGK
+      - Straight ConnectorbssuW
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Service</div></div><hr class="c-underrule"
+        style="background-color: #416bdd"></div>'
+    id: ServiceVs8giAT6OP
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Service
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Service
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-west1"
+      latitude: 45.59456
+      longitude: -121.17868
+    width: 100
+    height: 124
+    offsetX: 257.50000000000006
+    offsetY: 41
+    zIndex: 19
+    inEdges:
+      - Straight ConnectorbssuW
+    outEdges:
+      - Orthogonal ConnectorxkRyT
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300500/sds_logos/Kubernetes/Transparent/pod_Black_87_mbywmi.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod_sfcukl.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Pod</div></div><hr class="c-underrule"
+        style="background-color: #416bdd"></div>'
+    id: PodsD8TB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Pod
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Pod
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Pod
+      editableName: Pod
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Pod
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod_sfcukl.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/pod__044448_nuc3rz.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300500/sds_logos/Kubernetes/Transparent/pod_Black_87_mbywmi.png
+      color: "#416bdd"
+      controlText: Pod
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 1032.5
+    offsetY: 23
+    zIndex: 23
+    inEdges:
+      - Straight ConnectorCFGGX
+      - Straight ConnectorCFGGXeVuIW
+      - Dashed Straight Nondirectional Connectoreeuse
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);"></div><div
+        class="c-text"><div class="c-title">Main Container</div><div
+        class="c-short-description">Primary application/service container (e.g.,
+        for your microservice)</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Docker</div></div></div></div></div>'
+    id: DockerpdPnD
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+        shortDescription: Primary application/service container (e.g., for your microservice)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Main Container
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: 1290.5
+    offsetY: -34
+    zIndex: 24
+    outEdges:
+      - Straight ConnectorCFGGX
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);"></div><div
+        class="c-text"><div class="c-title">Sidecar (via Data Plane)</div><div
+        class="c-short-description">Istio side car that enables the pod to
+        connect/use the service mesh</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Docker</div></div></div></div></div>'
+    id: DockerRqApI
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+        shortDescription: Istio side car that enables the pod to connect/use the service mesh
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Sidecar (via Data Plane)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 1290.5
+    offsetY: 81
+    zIndex: 25
+    outEdges:
+      - Straight ConnectorCFGGXeVuIW
+connectors:
+  - id: Orthogonal ConnectorKCMnb
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 435
+      y: 290
+    targetPoint:
+      x: 400
+      y: 253
+    sourceID: Google Kubernetes EngineggpgM
+    targetID: Anthos Service MeshBLTvp
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Orthogonal ConnectorTtpGb
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 307.5
+      y: -83
+    targetPoint:
+      x: 694.5
+      y: 69
+    sourceID: ServiceVs8gi
+    targetID: Podc5mmxma1id
+    segments:
+      - type: Orthogonal
+        direction: Right
+        length: 54.5
+      - type: Orthogonal
+        length: 152
+        direction: Bottom
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Orthogonal Bidirectional ConnectorsrN2l
+    type: Orthogonal
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 744.5
+      y: -21
+    targetPoint:
+      x: 744.5
+      y: 7
+    sourceID: Podc5mmx
+    targetID: Podc5mmxma1id
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Straight Bidirectional Connectorebw8p
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 613
+      y: 9.59
+    targetPoint:
+      x: 694.5
+      y: 46.41
+    sourceID: ServiceVs8giUB386
+    targetID: Podc5mmxma1id
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+  - id: Straight ConnectorqpZGK
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 185
+      y: -69.97
+    targetPoint:
+      x: 207.5
+      y: -74.01
+    sourceID: UsersTAdMs
+    targetID: ServiceVs8gi
+    addInfo:
+      viewConnector: 0
+    zIndex: 14
+  - sourceID: Anthos Service MeshBLTvp
+    sourcePortID: Anthos Service MeshBLTvpbottom-right
+    targetID: Branded Logical GroupiTR8f
+    targetPortID: Branded Logical GroupiTR8fbottom-right
+    targetDecorator:
+      width: 0
+      height: 0
+    style:
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+    id: K8Xh6
+    zIndex: 15
+    targetPoint:
+      x: 808.5
+      y: 140
+    sourcePoint:
+      x: 550
+      y: 253
+  - sourceID: Anthos Service MeshBLTvp
+    sourcePortID: Anthos Service MeshBLTvptop-right
+    targetID: Branded Logical GroupiTR8f
+    targetPortID: Branded Logical GroupiTR8ftop-right
+    targetDecorator:
+      width: 0
+      height: 0
+    style:
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+    id: Xf6En
+    zIndex: 16
+    targetPoint:
+      x: 808.5
+      y: -166
+    sourcePoint:
+      x: 550
+      y: 153
+  - sourceID: Anthos Service MeshBLTvp
+    sourcePortID: Anthos Service MeshBLTvptop-left
+    targetID: Branded Logical GroupiTR8f
+    targetPortID: Branded Logical GroupiTR8ftop-left
+    targetDecorator:
+      width: 0
+      height: 0
+    style:
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+    id: Ike1s
+    zIndex: 17
+    targetPoint:
+      x: 218.5
+      y: -166
+    sourcePoint:
+      x: 250
+      y: 153
+  - sourceID: Anthos Service MeshBLTvp
+    sourcePortID: Anthos Service MeshBLTvpbottom-left
+    targetID: Branded Logical GroupiTR8f
+    targetPortID: Branded Logical GroupiTR8fbottom-left
+    targetDecorator:
+      width: 0
+      height: 0
+    style:
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+    id: DKG9o
+    zIndex: 18
+    targetPoint:
+      x: 218.5
+      y: 140
+    sourcePoint:
+      x: 250
+      y: 253
+  - id: Straight ConnectorbssuW
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 167.44
+      y: 7
+    targetPoint:
+      x: 207.5
+      y: 22.12
+    sourceID: UsersTAdMs
+    targetID: ServiceVs8giAT6OP
+    addInfo:
+      viewConnector: 0
+    zIndex: 20
+  - id: Orthogonal ConnectorxkRyT
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 307.5
+      y: 41
+    targetPoint:
+      x: 694.5
+      y: 69
+    sourceID: ServiceVs8giAT6OP
+    targetID: Podc5mmxma1id
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 22
+  - id: Straight ConnectorCFGGX
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 1140.5
+      y: -0.86
+    targetPoint:
+      x: 1082.5
+      y: 11.95
+    sourceID: DockerpdPnD
+    targetID: PodsD8TB
+    addInfo:
+      viewConnector: 0
+    zIndex: 26
+  - id: Straight ConnectorCFGGXeVuIW
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 1140.5
+      y: 47.28
+    targetPoint:
+      x: 1082.5
+      y: 34.24
+    sourceID: DockerRqApI
+    targetID: PodsD8TB
+    addInfo:
+      viewConnector: 0
+    zIndex: 27
+  - id: Dashed Straight Nondirectional Connectoreeuse
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 794.5
+      y: 61.02
+    targetPoint:
+      x: 982.5
+      y: 30.99
+    sourceID: Podc5mmxma1id
+    targetID: PodsD8TB
+    addInfo:
+      viewConnector: 0
+    zIndex: 28
+selectedItems:
+  width: 0
+  height: 0
